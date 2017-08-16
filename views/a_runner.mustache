@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <nav>
-    <a href='./'>HOME</a>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>RaceUp</title>
+</head>
   <body>
-    <h1> Runner </h1>
-<p>{{#results}}<p><a href='/a_runner'>{{name}}</a>, {{division}}, {{sponsor}}</p>{{/results}}</p>
+    <a href="/">Home</a>
+    {{#runner}}
+    <p>Name: {{name}}</p>
+    <p>Division: {{division}}</p>
+    <p>Sponsor: {{sponsor}}</p>
+    {{/runner}}
   </body>
 </html>

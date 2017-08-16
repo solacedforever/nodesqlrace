@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.runnerbox{
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 13rem;
+}
